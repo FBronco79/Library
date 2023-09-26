@@ -7,7 +7,6 @@ class Book:
     title: str
     author: str
     release_date: date
-    # added_at_datetime: datetime = field(default_factory=datetime.today)
     added_at_datetime: datetime = field(default_factory=datetime.now)
 
     def __str__(self):
